@@ -13,11 +13,14 @@ extra_neg holds all the extra negative photos we used for training OpenCV
 Accessing s.sh:
 Accessories>File Manager>s.sh
 
+Modify the bootup, and scroll all the way to the bottom of the file:
+$ sudo nano .bashrc
+
 Prerequisites
 Raspberry Pi's microSD card has everything needed to work
 
 Deployment
-If you want to use the script for starting the program:
+If you want to use the script to start up the entire program:
 $ bash s.sh
 Open terminal
 $ source ~/.profile
